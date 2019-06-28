@@ -4,85 +4,120 @@
 <head>
 <style>
 body {
-	background-color: #404552;
-	color: white;
+	background-color: white;
+	color: black;
 	font-family: "Segoe UI";
 	text-align: center;
 }
 h1   {
-	color: white;
+	color:black;
 }
 p    {
-	color: #5294e2;
+	color: black;
 	font-family: "Segoe UI";
 	font-style: bold;
 }
-.column {
-	float: left;
-  width: 33.33%;
-  padding: 5px;
+.topPage{
+	position: relative;
+	text-align: left;
+	font-weight: 300;
 }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.linkText{
+	color: black;
+	font-family: 'Segoe UI';
+	text-decoration: none;
+	margin: 5px;
+}
+.textHead{
+	color: white;
+	font-family: 'Segoe UI';
+	font-size: 60px;
+	position: absolute;
+	margin-top: -350px;
+	margin-left: 34%;
+}
+.subText{
+	color: white;
+	font-family: 'Segoe UI Light';
+	font-size: 20px;
+	position: absolute;
+	margin-top: -275px;
+	margin-left: 25%;
+
+}
+.slideImage{
+	width: 100%;
+	height: 500px;
+	margin-top: 5px;
+}
+.info{
+	font-style: italic;
+	font-weight: 700;
+	text-align: left;
+}
+.detail{
+	text-align: left;
+	margin-left: 10px;
+	
+}
+.logoImage{
+	height: 25px;
+	width: 25px;
 }
 </style>
 	<title>DOTA 2</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- this is a comment in HTML -->
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+
 </head>
-
 <body>
-	<h1>Brian Dela Cruz</h1>
-	<div class="row">
-		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
-		<!-- p means paragraph -->
+	<div>
+		<div class="topPage">
+				<a class="linkText" href="https://www.w3schools.com/html/">Home</a>
+				<a class="linkText" href="https://www.w3schools.com/html/">About</a>
+		</div>
+		<div class="mySlides">
+				<!-- <div class="numbertext">1 / 3</div> -->
+				<img class="slideImage" src="images/kid2.jpg">
+				<div class="textHead">Brian Dela Cruz</div>
+				<div class="subText">Asia Pacific College | Bachelor of Science in Information Technology | Taguig City</div>
+		</div>
 		<div>
+			<p class="info">Information</p>
+			<p class="detail">
+				<b>First Name</b>: Brian <br>
+				<b>Middle Name</b>: Mempin <br>
+				<b>Last Name</b>: Dela Cruz <br>
+				<b>Address</b>: B8 L4 Corner Saint. Mary Street. Central Signal Vilalge, Taguig City <br>
+				<b>Junior High School</b>: MCA Montessori School <br>
+				<b>Senior High School</b>: Asia Pacficic College <br>
+			</p>
 
-		</div>
-		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
-		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
-		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-	
-		<div class="column">
-				<p>Juggernaut</p>
-				<img src="images/juggernaut.jpg" alt="Lorem Pixel image" width="300" height="200">		
-		</div>
-		<div class="column">
-				<p>Grimstroke</p>
-				<img src="images/grimstroke.jpg" alt="Lorem Pixel image" width="300" height="200">
-		</div>
-		<div class="column">
-				<p>Kunkka</p>
-				<img src="images/kunkka.jpg" alt="Lorem Pixel image" width="300" height="200">
-		</div>
-		<div class="column">
-					<p>Mars</p>
-				<img src="images/mars.jpg" alt="Lorem Pixel image" width="300" height="200">
-		</div>
-		<div class="column">
-					<p>Mirana</p>
-				<img src="images/mirana.png" alt="Lorem Pixel image" width="300" height="200">
-		</div>
-		<div class="column">	
-					<p>Necrophos</p>
-				<img src="images/necrophos.jpg" alt="Lorem Pixel image" width="300" height="200">		
-		</div>
-		<div class="column">
-					<p>Rubick</p>
-				<img src="images/rubick.jpg" alt="Lorem Pixel image" width="300" height="200">			
-		</div>
-		<div class="column">
-					<p>Techies</p>
-				<img src="images/techies.jpg" alt="Lorem Pixel image" width="300" height="200">			
+			<p class="info">Hobbies</p>
+			<p class="detail">
+					Playing Basketball
+			<img class="slideImage" src="images/kobe.jpg">
+			</p>
+			<p class="detail">
+					Playing Dota 2
+			<img class="slideImage" src="images/juggernaut.jpg">
+			</p>
+
+			<p class="info">Contact</p>
+			<p class="detail">
+			<b>Email Address</b>: delacruzbrian712@gmail.com / bmdelacruz2@student.apc.edu.ph
+			<b>Cellphone No.</b>: 0917 607 1046
+			</p>
+
+			<p class="info">Social Media</p>
+			<p class="detail">
+			<a class="linkText" href="https://www.facebook.com/delacruzbri712"><img class="logoImage" src="images/fb.png"></a>
+			<a class="linkText" href="https://www.twitter.com/delacruzbri/"><img class="logoImage" src="images/twitter.png"></a>
+			<a class="linkText" href="https://www.instagram.com/delacruzbri/"><img class="logoImage" src="images/instagram.png"></a>
+			</p>
+
+
+
 		</div>
 	</div>
 </body>
