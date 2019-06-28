@@ -22,6 +22,11 @@ p    {
   width: 33.33%;
   padding: 5px;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 	<title>DOTA 2</title>
 	<meta charset="utf-8">
@@ -36,11 +41,12 @@ p    {
 </head>
 
 <body>
-	<div>
+	<h1>Brian Dela Cruz</h1>
+	<div class="row">
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
 		<div>
-			<h1>Brian Dela Cruz</h1>
+
 		</div>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
