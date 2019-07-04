@@ -19,7 +19,7 @@ p    {
 }
 .topPage{
 	position: relative;
-	text-align: left;
+	text-align: center;
 	font-weight: 300;
 }
 .linkText{
@@ -46,7 +46,7 @@ p    {
 
 }
 .slideImage{
-	width: 100%;
+	width: 80%;
 	height: 500px;
 	margin-top: 5px;
 }
@@ -63,6 +63,13 @@ p    {
 	height: 25px;
 	width: 25px;
 }
+.span4 {
+    width: 31.2500000000%;
+    margin: 1.0416666667%;
+}
+.left {
+    float: left;
+}
 </style>
 	<title>DOTA 2</title>
 	<meta charset="utf-8">
@@ -72,7 +79,7 @@ p    {
 <body>
 	<div>
 		<div class="topPage">
-				<a class="linkText" href="https://www.w3schools.com/html/">Home</a>
+				<a class="linkText" href="index.html">Home</a>
 				<a class="linkText" href="https://www.w3schools.com/html/">About</a>
 		</div>
 		<div class="mySlides">
@@ -94,13 +101,37 @@ p    {
 
 			<p class="info">Hobbies</p>
 			<p class="detail">
-					Playing Basketball
+					<p class="title">Playing Basketball</p>
 			<img class="slideImage" src="images/kobe.jpg">
-			</p>
+
 			<p class="detail">
-					Playing Dota 2
-			<img class="slideImage" src="images/juggernaut.jpg">
+					<p class="title">Playing Dota 2</p>
+			<a href="https://www.dota2.com"><img class="slideImage" src="images/juggernaut.jpg"></a>
 			</p>
+
+			<p class="info">Favorite Brands</p>
+
+			<div class="span4 left">
+			
+			<p class="detail">
+					<b>Adidas</b>
+			<a href="https://www.adidas.com.ph"><img src="images/nike.png" style="width:100%"></a>
+			</p>
+			</div>
+
+			<div class="span4 left">
+			<p class="detail">
+				<b>Uniqlo</b>
+			<a href="http://www.uniqlo.com/ph/"><img src="images/uniqlo.png" style="width:100%"></a>
+			</p>
+			</div>
+
+			<div class="span4 left">
+			<p class="detail">
+				<b>Nike</b>
+			<a href="https://www.nike.com/ph/"><img src="images/adidas.png" style="width:100%"></a>
+			</p>
+			</div>
 
 			<p class="info">Contact</p>
 			<p class="detail">
