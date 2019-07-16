@@ -13,13 +13,13 @@ p    {
 	font-style: bold;
 }
 .topPage{
-	position: relative;
-	text-align: center;
-	font-weight: 300;
+
+   background-color: black;
 }
+
 .linkText{
-	color: black;
-	font-family: 'Segoe UI';
+	color: white;
+	font-family: 'Segoe UI Light';
 	text-decoration: none;
 	margin: 5px;
 }
